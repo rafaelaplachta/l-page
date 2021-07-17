@@ -1,6 +1,43 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: lightgreen;
+}
+header{
+display: flex;
+position:absolute ;
+justify-content:space-around ;
+text-decoration: unset;
+
+}
+.menu{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: xx-large;
+    text-decoration: unset;    
+    
+}
+.menugeral{
+    list-style: none;
+    
+    }
+    
 h1{
 text-align: center;
 }
-.imgredes{
-    margin-right: 10%;
+h2{
+text-align: center;
+
+}
+footer{
+    margin-top: 90%;
+    display: flex;
+justify-content: space-between;
+}
+.links{
+    text-decoration: unset;
+}
+#imgredes1{
+    margin-top: 5   %;
+    width: 10%;
 }
