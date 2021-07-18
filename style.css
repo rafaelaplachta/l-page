@@ -18,22 +18,22 @@ text-decoration: unset;
     
 }
 .menugeral{
-    list-style: none;
+    list-style-type: none;
     
     }
-    
 h1{
 text-align: center;
+margin-top: 5%;
 }
 h2{
     text-align: center;
 margin-top: 0%;
 margin-right: 20%;
-margin-bottom: 0%;
+margin-bottom: 5%;
 margin-left: 30%;
 
 }
-.redessociais{
+footer{
     margin-top: 90%;
     display: flex;
 justify-content: space-between;
@@ -43,8 +43,34 @@ justify-content: space-between;
 }
 .conteudo{
 background-color: whitesmoke;
+text-align:justify
 margin-top: 5%;
-margin-right: 20%;
+margin-right: 10%;
 margin-bottom: 10%;
 margin-left:30% ;
+}
+p{
+    text-align:justify;
+    
+}
+.formulario{
+    
+margin-top: 10%;
+}
+input{
+    display:inline-block;
+    width: 350px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darkmagenta;
+    font-size: 20pt;
+    }
+.campo{
+margin: 30px;
+
+}
+
+#botao{
+    margin: 50px;
 }
