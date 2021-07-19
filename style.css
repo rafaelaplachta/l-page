@@ -1,23 +1,22 @@
 body{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: darkmagenta;
+color: white;
 }
 header{
 display: flex;
 position:absolute ;
 justify-content:space-around ;
-text-decoration: unset;
-
 }
 .menu{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 10px;
+    border-color: darkblue;
+    box-shadow: 2px 2px 2px blueviolet;
     padding: 20px;
-    font-size: xx-large;
-    text-decoration: unset;    
-    
+    font-size: x-large;
 }
-.menugeral{
+li{
     list-style-type: none;
     
     }
@@ -26,7 +25,7 @@ text-align: center;
 margin-top: 5%;
 }
 h2{
-    text-align: center;
+    text-align: justify;
 margin-top: 0%;
 margin-right: 20%;
 margin-bottom: 5%;
@@ -38,24 +37,29 @@ footer{
     display: flex;
 justify-content: space-between;
 }
-.links{
-    text-decoration: unset;
+a{
+    text-decoration: none;
+color: goldenrod;
 }
 .conteudo{
 background-color: whitesmoke;
-text-align:justify
+
 margin-top: 5%;
-margin-right: 10%;
+margin-right: 20%;
 margin-bottom: 10%;
 margin-left:30% ;
+padding: 20px;
 }
 p{
     text-align:justify;
-    
+    color: darkblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .formulario{
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin-top: 10%;
+margin-bottom: 30%;
+padding-bottom: 60px;
 }
 input{
     display:inline-block;
@@ -65,6 +69,7 @@ input{
     border-radius: 5px;
     border-color: darkmagenta;
     font-size: 20pt;
+    background-color: lightgrey;
     }
 .campo{
 margin: 30px;
@@ -73,4 +78,26 @@ margin: 30px;
 
 #botao{
     margin: 50px;
+    border: 1px dotted;
+    border-radius: 5px;
+    border-color: darkmagenta;
+ background-color:gray ;
+ 
+textarea{
+    display:inline-block;
+    width: 100px;
+     border: 1px solid;
+     border-radius: 5px;
+     border-color: darkmagenta;
+ background-color: lightgrey;
+ 
+}
+#imgeu{
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+h4{
+    text-align: center;
 }
