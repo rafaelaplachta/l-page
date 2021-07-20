@@ -1,6 +1,11 @@
+*{
+    margin: 0%;
+    border: 0pt;
+    padding: 0px;
+}
 body{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color: darkmagenta;
+background-color: magenta;
 color: white;
 }
 header{
@@ -28,7 +33,7 @@ h2{
     text-align: justify;
 margin-top: 0%;
 margin-right: 20%;
-margin-bottom: 5%;
+margin-bottom: 2%;
 margin-left: 30%;
 
 }
@@ -41,25 +46,80 @@ a{
     text-decoration: none;
 color: goldenrod;
 }
-.conteudo{
-background-color: whitesmoke;
+main{
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    display:grid;
+    position: absolute;
+    justify-content:center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+padding-top: 50px;    
+padding-bottom: 50px;
 
-margin-top: 5%;
-margin-right: 20%;
-margin-bottom: 10%;
-margin-left:30% ;
-padding: 20px;
+}
+section{
+margin-top: 5px;
+}
+article{
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    display:grid;
+    position: absolute;
+    justify-content:center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+padding-top: 50px;    
+padding-bottom: 50px;
+}
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;   f
+    font-weight: 700;
 }
 p{
-    text-align:justify;
-    color: darkblue;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 20px;   f
+
 }
 .formulario{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-top: 10%;
-margin-bottom: 30%;
-padding-bottom: 60px;
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    display:grid;
+    position: absolute;
+    justify-content:center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+padding-top: 50px;    
+padding-bottom: 50px;
+
+}
+section{
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    display:grid;
+    position: absolute;
+    justify-content:center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+padding-top: 50px;    
+padding-bottom: 50px;
+
 }
 input{
     display:inline-block;
@@ -93,11 +153,10 @@ textarea{
  
 }
 #imgeu{
-    border: 1px solid;
-    border-color: white;
-    border-radius: 10px;
-    
+border:2px solid;
+border-radius: 10px;
+    border-color: goldenrod;
 }
-h4{
-    text-align: center;
+section{
+    position: relative;
 }
