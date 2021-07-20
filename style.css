@@ -1,6 +1,5 @@
 *{
     margin: 0%;
-    border: 0pt;
     padding: 0px;
 }
 body{
@@ -46,117 +45,6 @@ a{
     text-decoration: none;
 color: goldenrod;
 }
-main{
-    width: 40%;
-    background-color: white;
-    margin-left: 30%;
-    margin-top: 5%;
-    display:grid;
-    position: absolute;
-    justify-content:center;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-padding-top: 50px;    
-padding-bottom: 50px;
-
-}
-section{
-margin-top: 5px;
-}
-article{
-    width: 40%;
-    background-color: white;
-    margin-left: 30%;
-    margin-top: 5%;
-    display:grid;
-    position: absolute;
-    justify-content:center;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-padding-top: 50px;    
-padding-bottom: 50px;
-}
-h3{
-    margin-top: 5px;
-    margin-bottom: 20px;   f
-    font-weight: 700;
-}
 p{
     margin-top: 30px;
-}
-h4{
-    margin-top: 5px;
-    margin-bottom: 20px;   f
-
-}
-.formulario{
-    width: 40%;
-    background-color: white;
-    margin-left: 30%;
-    margin-top: 5%;
-    display:grid;
-    position: absolute;
-    justify-content:center;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-padding-top: 50px;    
-padding-bottom: 50px;
-
-}
-section{
-    width: 40%;
-    background-color: white;
-    margin-left: 30%;
-    margin-top: 5%;
-    display:grid;
-    position: absolute;
-    justify-content:center;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-padding-top: 50px;    
-padding-bottom: 50px;
-
-}
-input{
-    display:inline-block;
-    width: 350px;
-    height: 40px;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: darkmagenta;
-    font-size: 20pt;
-    background-color: lightgrey;
-    }
-.campo{
-margin: 30px;
-
-}
-
-#botao{
-    margin: 50px;
-    border: 1px dotted;
-    border-radius: 5px;
-    border-color: darkmagenta;
- background-color:gray ;
- 
-textarea{
-    display:inline-block;
-    width: 100px;
-     border: 1px solid;
-     border-radius: 5px;
-     border-color: darkmagenta;
- background-color: lightgrey;
- 
-}
-#imgeu{
-border:2px solid;
-border-radius: 10px;
-    border-color: goldenrod;
-}
-section{
-    position: relative;
 }
