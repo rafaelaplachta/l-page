@@ -3,8 +3,7 @@
     padding: 0px;
 }
 body{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color: magenta;
+background-color:darkmagenta;
 color: white;
 }
 header{
@@ -27,6 +26,7 @@ li{
 h1{
 text-align: center;
 margin-top: 5%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2{
     text-align: justify;
@@ -34,17 +34,21 @@ margin-top: 0%;
 margin-right: 20%;
 margin-bottom: 2%;
 margin-left: 30%;
-
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-footer{
-    margin-top: 90%;
-    display: flex;
-justify-content: space-between;
+footer
+clear: both;
+position: absolut;
+
+
+background-color: white;
 }
 a{
     text-decoration: none;
 color: goldenrod;
 }
 p{
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
+    margin-bottom: 30px;
 }

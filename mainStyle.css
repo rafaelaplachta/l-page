@@ -1,23 +1,32 @@
 main{
-    width: 40%;
-    background-color: white;
-    margin-left: 30%;
+    width: 60%;
+    background-color: #f5f5;
+    margin-left: 20%;
     margin-top: 5%;
-    display:grid;
+    margin-right: 30%;
+    display:flex;
     position: absolute;
-    justify-content:center;
+    justify-content:space-between;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
 padding-top: 50px;    
 padding-bottom: 50px;
+}
+.news{
+    margin-right: 40px;
 }
 h3{
     margin-top: 5px;
     margin-bottom: 20px;   
     font-weight: 700;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h4{
     margin-top: 5px;
     margin-bottom: 20px;   f
+}
+.pmain{
+ text-alig: center;
+    
+
 }
