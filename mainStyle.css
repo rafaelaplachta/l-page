@@ -21,12 +21,11 @@ h3{
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h4{
-    margin-top: 5px;
-    margin-bottom: 20px;   f
+h4{ 
+    margin-bottom: 50px;   
+    text-align: right;
+    font-size: small;
 }
-.pmain{
- text-alig: center;
-    
-
+.midia{
+    margin-bottom: 80px;
 }
